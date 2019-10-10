@@ -18,6 +18,7 @@ h2 {
     width: 25%;
     background-color: #52de97;
     font-size: 120%;
+    color: #bbeaa6;
 
   }
   h1 {
@@ -28,7 +29,7 @@ h2 {
       width: 37%;
       background-color: #c9d99e;
       font-size: 180%;
-      text-decoration-color: "cyan;"
+      color: #347474;
 
     }
     img {
