@@ -87,15 +87,11 @@ p{
   left: 20%;
   top: 50px;
 }
-.second{
 
-  height: 500px;
-  background-image:linear-gradient(to bottom left, #fbe555,#3e64ff,#2f416d);
-}
 .content{
   border-radius: 100%;
-  width: 15%;
-  height: 15%;
+  width: 25%;
+  height: 25%;
 
 }
 hr{
