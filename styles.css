@@ -129,7 +129,7 @@
   transform-origin: bottom left;
   transform: skewY(4deg);
 }
-@media(max-width: 1080px){
+@media(max-width: 400px){
   .int{
    height: 250px;
   }
