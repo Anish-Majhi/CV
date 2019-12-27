@@ -127,7 +127,7 @@
   left: 0;
   right: 0;
   transform-origin: bottom left;
-  transform: skewY(10deg);
+  transform: skewY(6deg);
 }
 @media(min-width: 1000px){
   .int{
