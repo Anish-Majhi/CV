@@ -1,42 +1,131 @@
-.container {
-  width: 70%;
-  margin: auto;
-  text-align: center;
+#title{
+  background-image: url("E:/web dev/sohan/image2.jpg");
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: slide 20s infinite;
+  height: 850px;
 }
-
-.dice {
-  text-align: center;
-  display: inline-block;
-
+@keyframes slide{
+  0%{
+    background-image: url("E:/web dev/sohan/image2.jpg");
+  }
+  25%{
+    background-image: url("E:/web dev/sohan/image1.jpg");
+  }
+  50%{
+    background-image: url("E:/web dev/sohan/image3.jpg");
+  }
+  75%{
+    background-image: url("E:/web dev/sohan/image5.jpg");
+  }
+  100%{
+    background-image: url("E:/web dev/sohan/image6.jpg");
+  }
 }
-
-body {
-  background-image: url("images/wooden-table-background.jpg");
-
-}
-
-h1 {
-  margin: 30px;
+.navname{
+  color: #e6a400;
   font-family: 'Lobster', cursive;
-  text-shadow: 5px 0 #232931;
-  font-size: 8rem;
-  color: #10316b;
+  letter-spacing: 2px;
 }
-
-p {
-  font-size: 2rem;
-  color: #10316b;
-  font-family: 'Indie Flower', cursive;
+.item{
+  color:#e6a400;
+  padding-right: 1rem;
+  font-weight: bold;
 }
-
-img {
-  width: 80%;
+.container-fluid{
+  padding: 3% 15%;
+  padding-bottom:8%;
 }
-
-footer {
-  margin-top: 5%;
-  color: #eb4d55;
+.profile{
+  width: 500px;
+  height: 500px;
+  border-radius: 100%;
+  padding: 4rem;
+}
+.yo
+{
   text-align: center;
-  font-family: 'Indie Flower', cursive;
+}
+#modhu{
+  font-family: 'Ma Shan Zheng', cursive;
+  font-size: 2rem;
+  color: #fae8c8;
+}
+.name{
+  padding-left: 200px;
+  color: #fae8c8;
+}
+#skills{
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  padding: 7% 15%;
+}
+.icon1{
+  color: #801336;
+  font-size: 5rem;
+  padding: 2rem;
+}
+.icon2{
+  color: #0c9463;
+  font-size: 5rem;
+  padding: 2rem;
+}
+.icon3{
+  color: #ff971d;
+  font-size: 5rem;
+  padding: 2rem;
+}
+.ic:hover{
+  color: #ff4c68;
+}
+.int{
+  background: linear-gradient(90deg,#34a853 4%,#4285f4 0%) top/100% 34% no-repeat,linear-gradient(90deg,#232020 50%,#4285f4 0%) top/100% 82% no-repeat,linear-gradient(90deg,#232020 10%,#ea4335 0%) top/100% 100%;
+  padding: 0;
+  border: 0;
+  margin: 0;
+  border-radius: 5px;
+  height: 290px;
+}
+.color{
+  margin: 4px;
+  background: yellow;
+  border-radius: 5px;
+  padding-bottom:1rem;
+  padding-left: 0.1rem;
+  padding-right: 0.1rem;
+}
+.navbar{
 
+  opacity: 50%;
+  border-radius: 20px;
+}
+.navbar:hover{
+  opacity:100%;
+}
+.navname:hover{
+  color: #e6a400;
+}
+.slanter{
+  position: relative;
+  width: 100%;
+  height:400px;
+  background: yellow;
+}
+.slanter:after{
+  position:absolute;
+  width: 100%;
+  height: 100%;
+  content: '';
+  background: inherit;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transform-origin: bottom left;
+  transform: skewY(4deg);
 }
