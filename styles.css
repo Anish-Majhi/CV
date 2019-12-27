@@ -88,7 +88,7 @@
   border: 0;
   margin: 0;
   border-radius: 5px;
-  height: 250px;
+  height: 290px;
 }
 .color{
   margin: 4px;
@@ -129,3 +129,7 @@
   transform-origin: bottom left;
   transform: skewY(4deg);
 }
+@media(max-width: 1080px){
+  .int{
+   height: 250px;
+  }
