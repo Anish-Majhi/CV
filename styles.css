@@ -167,7 +167,8 @@
   }
 }
   .woof{
-    width: 10%;
+    width: 30px;
+    height: 30px;
     border-radius: 100%;
     padding-top: 2rem;
   }
