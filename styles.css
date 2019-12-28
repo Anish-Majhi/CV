@@ -167,10 +167,9 @@
   }
 }
   .woof{
-    width: 100px;
-    height: 100px;
+    width: 60px;
+    height: 60px;
     border-radius: 100%;
-    padding-top: 2rem;
   }
   #pressh{
     background-color: #ef8172;
