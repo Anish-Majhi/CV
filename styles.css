@@ -25,9 +25,9 @@
   }
 }
 .navname{
-  color: #e6a400;
-  font-family: 'Lobster', cursive;
-  letter-spacing: 2px;
+  height: 41px;
+  width:180px;
+  opacity: 100%;
 }
 .item{
   color:#e6a400;
@@ -100,16 +100,13 @@
   padding-left: 0.1rem;
   padding-right: 0.1rem;
 }
-.navbar{
+.navi{
 
   opacity: 50%;
   border-radius: 20px;
 }
-.navbar:hover{
+.navi:hover{
   opacity:100%;
-}
-.navname:hover{
-  color: #e6a400;
 }
 .slanter{
   position: relative;
