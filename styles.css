@@ -91,9 +91,7 @@
   border-radius: 5px;
   height: 250px;
 }
-.int:hover{
-    background: linear-gradient(90deg,#34a853 4%,#4285f4 0%) top/100% 34% no-repeat,linear-gradient(90deg,#232020 50%,#4285f4 0%) top/100% 82% no-repeat,linear-gradient(90deg,#232020 10%,#ea4335 0%) top/100% 100%;
-}
+
 .color{
   margin: 4px;
   background: yellow;
@@ -138,6 +136,9 @@
   .i3{
     background: #ef8172;
   }
+  .int2{
+    background: linear-gradient(90deg,#34a853 4%,#4285f4 0%) top/100% 34% no-repeat,linear-gradient(90deg,#232020 50%,#4285f4 0%) top/100% 82% no-repeat,linear-gradient(90deg,#232020 10%,#ea4335 0%) top/100% 100%;
+  }
   #testimonials{
       text-align: center;
       background-color: #ef8172;
@@ -153,6 +154,9 @@
   .row{
     padding-left: 3rem;
     padding-right: 3rem;
+  }
+  .int:hover{
+    background: linear-gradient(90deg,#34a853 4%,#4285f4 0%) top/100% 34% no-repeat,linear-gradient(90deg,#232020 50%,#4285f4 0%) top/100% 82% no-repeat,linear-gradient(90deg,#232020 10%,#ea4335 0%) top/100% 100%;
   }
 
   #testimonials{
