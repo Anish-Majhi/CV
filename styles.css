@@ -5,6 +5,7 @@
   background-size: cover;
   animation: slide 20s infinite;
   height: 850px;
+  padding: 2rem;
 }
 @keyframes slide{
   0%{
@@ -83,12 +84,15 @@
   color: #ff4c68;
 }
 .int{
-  background: linear-gradient(90deg,#34a853 4%,#4285f4 0%) top/100% 34% no-repeat,linear-gradient(90deg,#232020 50%,#4285f4 0%) top/100% 82% no-repeat,linear-gradient(90deg,#232020 10%,#ea4335 0%) top/100% 100%;
+
   padding: 0;
   border: 0;
   margin: 0;
   border-radius: 5px;
   height: 250px;
+}
+.int:hover{
+    background: linear-gradient(90deg,#34a853 4%,#4285f4 0%) top/100% 34% no-repeat,linear-gradient(90deg,#232020 50%,#4285f4 0%) top/100% 82% no-repeat,linear-gradient(90deg,#232020 10%,#ea4335 0%) top/100% 100%;
 }
 .color{
   margin: 4px;
@@ -115,7 +119,7 @@
   height:400px;
   background: yellow;
 }
-.slanter:after{
+  .slanter:after{
   position:absolute;
   width: 100%;
   height: 100%;
@@ -127,9 +131,52 @@
   left: 0;
   right: 0;
   transform-origin: bottom left;
-  transform: skewY(6deg);
+  transform: skewY(4deg);
+  display: block;
+}
+@media (max-width: 999px) {
+  .i3{
+    background: #ef8172;
+  }
+  #testimonials{
+      text-align: center;
+      background-color: #ef8172;
+      padding-top: 500px;
+
+      z-index: 2;
+  }
 }
 @media(min-width: 1000px){
   .int{
    height: 290px;
+  }
+  .row{
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+  #testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    padding-top: 10rem;
+    display: block;
+    z-index: 1;
+
+  }
+  .woof{
+    width: 10%;
+    border-radius: 100%;
+    padding-top: 2rem;
+  }
+  #press{
+    background-color: #ef8172;
+    text-align: center;
+    padding:3rem;
+  }
+  .com{
+    width: 15%;
+    padding: 0 3%;
+  }
+  .carousel-item{
+    padding: 7% 20%;
   }
