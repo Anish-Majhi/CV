@@ -140,7 +140,7 @@
       text-align: center;
       background-color: #ef8172;
       padding-top: 25rem;
-      height: 50rem;
+      height: 60rem;
       z-index: 2;
   }
 
@@ -167,15 +167,15 @@
   }
 }
   .woof{
-    width: 30px;
-    height: 30px;
+    width: 100px;
+    height: 100px;
     border-radius: 100%;
     padding-top: 2rem;
   }
   #press{
     background-color: #ef8172;
     text-align: center;
-    padding:3rem;
+    padding:4rem;
   }
   .com{
     width: 15%;
