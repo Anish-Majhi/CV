@@ -154,7 +154,7 @@
     padding-left: 3rem;
     padding-right: 3rem;
   }
-}
+
   #testimonials{
     text-align: center;
     background-color: #ef8172;
@@ -163,6 +163,7 @@
     z-index: 1;
 
   }
+}
   .woof{
     width: 10%;
     border-radius: 100%;
