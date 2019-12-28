@@ -146,6 +146,9 @@
       height: 50rem;
       z-index: 2;
   }
+  .out1{
+  backkground:#ef8172;
+}
 }
 @media(min-width: 1000px){
   .int{
@@ -185,6 +188,4 @@
   .carousel-item{
     padding: 7% 20%;
   }
-out1{
-  backkground:#ef8172;
-}
+
