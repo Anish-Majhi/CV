@@ -408,6 +408,9 @@ title{
 .ic2:hover{
   color:#ef8172;
 }
+.ic{
+ color:#000;
+}
 /*optimisation*/
 @media (max-width: 999px) {
   .i3{
